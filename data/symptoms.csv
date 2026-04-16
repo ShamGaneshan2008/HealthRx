@@ -1,0 +1,11 @@
+symptoms,disease
+"runny nose,sneezing,sore throat,congestion",Common Cold
+"cough,runny nose,sneezing,fatigue",Common Cold
+"sore throat,congestion,watery eyes,sneezing",Common Cold
+"runny nose,headache,fatigue,sneezing",Common Cold
+"cough,sore throat,congestion,body pain",Common Cold
+"fever,headache,body pain,fatigue,cough",Influenza
+"fever,chills,body pain,headache,sweating",Influenza
+"fever,cough,fatigue,headache,muscle pain",Influenza
+"fever,body pain,fatigue,chills,headache",Influenza
+"fever,sore throat,headache,body pain,cough",Influenza

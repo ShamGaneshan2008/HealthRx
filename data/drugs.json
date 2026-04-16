@@ -1,0 +1,807 @@
+{
+  "Common Cold": {
+    "description": "A viral infection of the upper respiratory tract, typically causing nasal symptoms, sore throat, and general malaise. Usually self-limiting within 7-10 days.",
+    "drugs": [
+      {
+        "name": "Paracetamol",
+        "generic_name": "Acetaminophen",
+        "usage": "Reduces fever and relieves headache, body pain, and sore throat",
+        "dosage": "500mg every 4-6 hours as needed, maximum 2000mg per day",
+        "side_effects": ["Nausea", "Liver damage (rare, with overdose)"],
+        "contraindications": ["Severe hepatic impairment"],
+        "drug_class": "Analgesic / Antipyretic",
+        "allergy_flags": []
+      },
+      {
+        "name": "Cetirizine",
+        "generic_name": "Cetirizine Hydrochloride",
+        "usage": "Relieves runny nose, sneezing, and watery eyes",
+        "dosage": "10mg once daily",
+        "side_effects": ["Drowsiness", "Dry mouth", "Headache"],
+        "contraindications": ["Severe renal impairment"],
+        "drug_class": "Second-generation Antihistamine",
+        "allergy_flags": []
+      },
+      {
+        "name": "Oxymetazoline Nasal Spray",
+        "generic_name": "Oxymetazoline",
+        "usage": "Provides temporary relief from nasal congestion",
+        "dosage": "2-3 sprays per nostril twice daily, max 3 days",
+        "side_effects": ["Nasal dryness", "Rebound congestion (prolonged use)", "Burning sensation"],
+        "contraindications": ["Narrow-angle glaucoma", "Rhinitis medicamentosa"],
+        "drug_class": "Topical Decongestant",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Influenza": {
+    "description": "A contagious respiratory illness caused by influenza viruses, characterized by sudden onset of fever, body aches, and respiratory symptoms. Can lead to serious complications.",
+    "drugs": [
+      {
+        "name": "Oseltamivir",
+        "generic_name": "Oseltamivir Phosphate",
+        "usage": "Antiviral treatment to reduce flu severity and duration",
+        "dosage": "75mg twice daily for 5 days, start within 48 hours of symptom onset",
+        "side_effects": ["Nausea", "Vomiting", "Headache", "Dizziness"],
+        "contraindications": ["Known hypersensitivity to oseltamivir"],
+        "drug_class": "Neuraminidase Inhibitor",
+        "allergy_flags": ["oseltamivir"]
+      },
+      {
+        "name": "Ibuprofen",
+        "generic_name": "Ibuprofen",
+        "usage": "Reduces fever, headache, and muscle/body pain",
+        "dosage": "400mg every 6-8 hours with food, max 1200mg per day",
+        "side_effects": ["Stomach upset", "Nausea", "Dizziness", "GI bleeding (rare)"],
+        "contraindications": ["Active GI bleeding", "Severe renal impairment", "Third trimester pregnancy"],
+        "drug_class": "NSAID",
+        "allergy_flags": ["nsaid", "ibuprofen", "aspirin"]
+      },
+      {
+        "name": "Guaifenesin",
+        "generic_name": "Guaifenesin",
+        "usage": "Helps loosen mucus and relieve chest congestion",
+        "dosage": "200-400mg every 4 hours as needed, max 2400mg per day",
+        "side_effects": ["Nausea", "Vomiting", "Dizziness"],
+        "contraindications": ["Persistent or chronic cough"],
+        "drug_class": "Expectorant",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "COVID-19": {
+    "description": "A respiratory illness caused by the SARS-CoV-2 virus. Symptoms range from mild to severe, with potential for loss of taste or smell being a distinguishing feature.",
+    "drugs": [
+      {
+        "name": "Paracetamol",
+        "generic_name": "Acetaminophen",
+        "usage": "Manages fever, headache, and body pain",
+        "dosage": "500-1000mg every 4-6 hours, max 3000mg per day",
+        "side_effects": ["Nausea", "Liver toxicity (overdose)"],
+        "contraindications": ["Severe hepatic impairment"],
+        "drug_class": "Analgesic / Antipyretic",
+        "allergy_flags": []
+      },
+      {
+        "name": "Dexamethasone",
+        "generic_name": "Dexamethasone",
+        "usage": "Reduces inflammation in moderate to severe cases (prescription required)",
+        "dosage": "6mg once daily for up to 10 days (hospitalized patients only)",
+        "side_effects": ["Increased blood sugar", "Mood changes", "Insomnia", "Fluid retention"],
+        "contraindications": ["Systemic fungal infections", "Live vaccine administration"],
+        "drug_class": "Corticosteroid",
+        "allergy_flags": ["corticosteroid", "dexamethasone"]
+      },
+      {
+        "name": "Vitamin D3",
+        "generic_name": "Cholecalciferol",
+        "usage": "Supports immune function during recovery",
+        "dosage": "1000-2000 IU daily as supplementation",
+        "side_effects": ["Hypercalcemia (rare, with excessive dose)"],
+        "contraindications": ["Hypercalcemia", "Sarcoidosis"],
+        "drug_class": "Vitamin Supplement",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Malaria": {
+    "description": "A life-threatening mosquito-borne disease caused by Plasmodium parasites. Characterized by cyclical fever, chills, and sweating. Requires immediate medical treatment.",
+    "drugs": [
+      {
+        "name": "Artemether-Lumefantrine",
+        "generic_name": "Coartem",
+        "usage": "First-line antimalarial treatment for uncomplicated P. falciparum malaria",
+        "dosage": "Dosage based on body weight over 3 days (as per WHO guidelines)",
+        "side_effects": ["Headache", "Dizziness", "Nausea", "Vomiting", "Loss of appetite"],
+        "contraindications": ["Severe malaria", "First trimester pregnancy", "Known hypersensitivity"],
+        "drug_class": "Artemisinin-based Combination Therapy (ACT)",
+        "allergy_flags": ["artemether", "lumefantrine", "artemisinin"]
+      },
+      {
+        "name": "Paracetamol",
+        "generic_name": "Acetaminophen",
+        "usage": "Manages fever and body aches associated with malaria",
+        "dosage": "500-1000mg every 4-6 hours, max 3000mg per day",
+        "side_effects": ["Nausea", "Liver toxicity (overdose)"],
+        "contraindications": ["Severe hepatic impairment"],
+        "drug_class": "Analgesic / Antipyretic",
+        "allergy_flags": []
+      },
+      {
+        "name": "Oral Rehydration Salts",
+        "generic_name": "ORS",
+        "usage": "Prevents dehydration from fever and sweating",
+        "dosage": "200-400ml after each loose stool or as needed",
+        "side_effects": ["Nausea (rare)"],
+        "contraindications": ["Severe dehydration (requires IV fluids)"],
+        "drug_class": "Rehydration Agent",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Dengue Fever": {
+    "description": "A mosquito-borne viral infection causing high fever, severe joint and muscle pain, and rash. Can progress to severe dengue (dengue hemorrhagic fever) which is life-threatening.",
+    "drugs": [
+      {
+        "name": "Paracetamol",
+        "generic_name": "Acetaminophen",
+        "usage": "First-line for fever and pain in dengue (AVOID aspirin/ibuprofen due to bleeding risk)",
+        "dosage": "500-1000mg every 4-6 hours, max 3000mg per day",
+        "side_effects": ["Nausea", "Liver toxicity"],
+        "contraindications": ["Severe hepatic impairment"],
+        "drug_class": "Analgesic / Antipyretic",
+        "allergy_flags": []
+      },
+      {
+        "name": "Oral Rehydration Salts",
+        "generic_name": "ORS",
+        "usage": "Critical for maintaining hydration during febrile phase",
+        "dosage": "200-400ml frequently throughout the day",
+        "side_effects": ["Nausea (rare)"],
+        "contraindications": ["Severe dehydration (requires IV)"],
+        "drug_class": "Rehydration Agent",
+        "allergy_flags": []
+      },
+      {
+        "name": "Vitamin C",
+        "generic_name": "Ascorbic Acid",
+        "usage": "Supports immune function and vascular integrity",
+        "dosage": "500mg twice daily",
+        "side_effects": ["GI discomfort (high doses)", "Kidney stones (rare)"],
+        "contraindications": ["G6PD deficiency (high doses)", "History of kidney stones"],
+        "drug_class": "Vitamin Supplement",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Typhoid Fever": {
+    "description": "A bacterial infection caused by Salmonella typhi, transmitted through contaminated food and water. Causes sustained high fever, abdominal pain, and systemic symptoms.",
+    "drugs": [
+      {
+        "name": "Ciprofloxacin",
+        "generic_name": "Ciprofloxacin Hydrochloride",
+        "usage": "First-line antibiotic for typhoid fever in most regions",
+        "dosage": "500mg twice daily for 7-14 days",
+        "side_effects": ["Nausea", "Diarrhea", "Dizziness", "Tendon damage (rare)"],
+        "contraindications": ["Children under 18", "Pregnancy", "Known QT prolongation"],
+        "drug_class": "Fluoroquinolone Antibiotic",
+        "allergy_flags": ["ciprofloxacin", "fluoroquinolone"]
+      },
+      {
+        "name": "Azithromycin",
+        "generic_name": "Azithromycin",
+        "usage": "Alternative antibiotic for drug-resistant typhoid",
+        "dosage": "1000mg once daily for 5 days",
+        "side_effects": ["Nausea", "Diarrhea", "Abdominal pain", "Headache"],
+        "contraindications": ["Known hypersensitivity to macrolides", "Severe hepatic impairment"],
+        "drug_class": "Macrolide Antibiotic",
+        "allergy_flags": ["azithromycin", "macrolide", "erythromycin"]
+      },
+      {
+        "name": "Paracetamol",
+        "generic_name": "Acetaminophen",
+        "usage": "Manages fever and headache",
+        "dosage": "500-1000mg every 4-6 hours, max 3000mg per day",
+        "side_effects": ["Nausea", "Liver toxicity"],
+        "contraindications": ["Severe hepatic impairment"],
+        "drug_class": "Analgesic / Antipyretic",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Pneumonia": {
+    "description": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus. Causes cough, fever, chills, and difficulty breathing. Can be bacterial, viral, or fungal.",
+    "drugs": [
+      {
+        "name": "Amoxicillin-Clavulanate",
+        "generic_name": "Augmentin",
+        "usage": "First-line antibiotic for community-acquired bacterial pneumonia",
+        "dosage": "625mg three times daily for 5-7 days",
+        "side_effects": ["Diarrhea", "Nausea", "Skin rash", "Yeast infections"],
+        "contraindications": ["Penicillin allergy", "History of cholestatic jaundice with this drug"],
+        "drug_class": "Beta-lactam Antibiotic",
+        "allergy_flags": ["penicillin", "amoxicillin", "clavulanate", "beta-lactam"]
+      },
+      {
+        "name": "Doxycycline",
+        "generic_name": "Doxycycline Hyclate",
+        "usage": "Alternative antibiotic for atypical pneumonia",
+        "dosage": "100mg twice daily for 7 days",
+        "side_effects": ["Nausea", "Photosensitivity", "Esophageal irritation", "Diarrhea"],
+        "contraindications": ["Pregnancy", "Children under 8", "Severe hepatic disease"],
+        "drug_class": "Tetracycline Antibiotic",
+        "allergy_flags": ["doxycycline", "tetracycline"]
+      },
+      {
+        "name": "Salbutamol Inhaler",
+        "generic_name": "Albuterol",
+        "usage": "Relieves bronchospasm and shortness of breath",
+        "dosage": "2 puffs every 4-6 hours as needed",
+        "side_effects": ["Tremor", "Palpitations", "Headache", "Muscle cramps"],
+        "contraindications": ["Hypersensitivity to salbutamol"],
+        "drug_class": "Short-acting Beta-2 Agonist (SABA)",
+        "allergy_flags": ["salbutamol", "albuterol"]
+      }
+    ]
+  },
+  "Bronchitis": {
+    "description": "Inflammation of the bronchial tubes, often following an upper respiratory infection. Characterized by persistent cough, mucus production, and chest discomfort. Usually viral and self-limiting.",
+    "drugs": [
+      {
+        "name": "Benzonatate",
+        "generic_name": "Benzonatate",
+        "usage": "Suppresses persistent cough",
+        "dosage": "100-200mg three times daily as needed",
+        "side_effects": ["Drowsiness", "Dizziness", "Headache", "Nausea"],
+        "contraindications": ["Known hypersensitivity"],
+        "drug_class": "Antitussive",
+        "allergy_flags": ["benzonatate"]
+      },
+      {
+        "name": "Guaifenesin",
+        "generic_name": "Guaifenesin",
+        "usage": "Helps thin and loosen mucus for easier expulsion",
+        "dosage": "200-400mg every 4 hours, max 2400mg per day",
+        "side_effects": ["Nausea", "Vomiting"],
+        "contraindications": ["Persistent chronic cough"],
+        "drug_class": "Expectorant",
+        "allergy_flags": []
+      },
+      {
+        "name": "Ambroxol",
+        "generic_name": "Ambroxol Hydrochloride",
+        "usage": "Mucolytic agent that breaks down mucus structure",
+        "dosage": "30mg three times daily",
+        "side_effects": ["GI upset", "Nausea", "Skin rash"],
+        "contraindications": ["Severe gastric ulcer", "Known hypersensitivity"],
+        "drug_class": "Mucolytic",
+        "allergy_flags": ["ambroxol"]
+      }
+    ]
+  },
+  "Gastroenteritis": {
+    "description": "Inflammation of the stomach and intestines, often caused by viral or bacterial infection. Leads to diarrhea, vomiting, abdominal pain, and dehydration risk.",
+    "drugs": [
+      {
+        "name": "Oral Rehydration Salts",
+        "generic_name": "ORS",
+        "usage": "Most critical treatment to replace lost fluids and electrolytes",
+        "dosage": "200-400ml after each loose stool",
+        "side_effects": ["Nausea (rare)"],
+        "contraindications": ["Severe dehydration (requires IV fluids)"],
+        "drug_class": "Rehydration Agent",
+        "allergy_flags": []
+      },
+      {
+        "name": "Ondansetron",
+        "generic_name": "Ondansetron Hydrochloride",
+        "usage": "Anti-emetic to control nausea and vomiting",
+        "dosage": "4-8mg every 8 hours as needed",
+        "side_effects": ["Headache", "Constipation", "Dizziness", "Fatigue"],
+        "contraindications": ["Known hypersensitivity", "Congenital long QT syndrome"],
+        "drug_class": "Serotonin 5-HT3 Receptor Antagonist",
+        "allergy_flags": ["ondansetron"]
+      },
+      {
+        "name": "Zinc Supplement",
+        "generic_name": "Zinc Sulfate",
+        "usage": "Reduces duration and severity of diarrhea",
+        "dosage": "20mg once daily for 10-14 days",
+        "side_effects": ["Nausea", "Metallic taste", "Abdominal cramps"],
+        "contraindications": ["Copper deficiency"],
+        "drug_class": "Mineral Supplement",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "UTI": {
+    "description": "Urinary Tract Infection caused by bacteria (commonly E. coli) affecting the bladder or urethra. Causes painful urination, frequent urge to urinate, and lower abdominal discomfort.",
+    "drugs": [
+      {
+        "name": "Nitrofurantoin",
+        "generic_name": "Nitrofurantoin",
+        "usage": "First-line antibiotic for uncomplicated lower UTI",
+        "dosage": "100mg twice daily for 5 days",
+        "side_effects": ["Nausea", "Headache", "Dark urine", "Dizziness"],
+        "contraindications": ["Severe renal impairment (CrCl < 30)", "Last trimester pregnancy", "G6PD deficiency"],
+        "drug_class": "Nitrofuran Antibiotic",
+        "allergy_flags": ["nitrofurantoin", "nitrofuran"]
+      },
+      {
+        "name": "Trimethoprim-Sulfamethoxazole",
+        "generic_name": "Co-trimoxazole (Bactrim)",
+        "usage": "Alternative antibiotic for UTI",
+        "dosage": "160/800mg twice daily for 3-5 days",
+        "side_effects": ["Nausea", "Skin rash", "Photosensitivity", "Bone marrow suppression (rare)"],
+        "contraindications": ["Sulfa allergy", "Severe renal/hepatic impairment", "Pregnancy (near term)"],
+        "drug_class": "Sulfonamide Antibiotic",
+        "allergy_flags": ["sulfa", "sulfonamide", "trimethoprim", "bactrim"]
+      },
+      {
+        "name": "Phenazopyridine",
+        "generic_name": "Phenazopyridine Hydrochloride",
+        "usage": "Urinary analgesic for pain relief during urination",
+        "dosage": "200mg three times daily for up to 2 days",
+        "side_effects": ["Orange-red discoloration of urine", "Headache", "Dizziness"],
+        "contraindications": ["Severe renal impairment", "G6PD deficiency"],
+        "drug_class": "Urinary Analgesic",
+        "allergy_flags": ["phenazopyridine"]
+      }
+    ]
+  },
+  "Migraine": {
+    "description": "A neurological condition causing intense, throbbing headaches, often on one side of the head, accompanied by nausea, sensitivity to light and sound, and visual disturbances.",
+    "drugs": [
+      {
+        "name": "Sumatriptan",
+        "generic_name": "Sumatriptan Succinate",
+        "usage": "First-line acute migraine treatment (triptan class)",
+        "dosage": "50-100mg at onset, may repeat after 2 hours, max 200mg per day",
+        "side_effects": ["Tingling", "Dizziness", "Chest tightness", "Nausea", "Fatigue"],
+        "contraindications": ["Ischemic heart disease", "Stroke history", "Uncontrolled hypertension", "Severe hepatic impairment"],
+        "drug_class": "Serotonin 5-HT1 Receptor Agonist (Triptan)",
+        "allergy_flags": ["sumatriptan", "triptan"]
+      },
+      {
+        "name": "Ibuprofen",
+        "generic_name": "Ibuprofen",
+        "usage": "Pain relief for mild to moderate migraine attacks",
+        "dosage": "400-600mg at onset, then 400mg every 6 hours, max 1200mg per day",
+        "side_effects": ["Stomach upset", "Nausea", "Dizziness"],
+        "contraindications": ["Active GI bleeding", "Severe renal impairment", "Third trimester pregnancy"],
+        "drug_class": "NSAID",
+        "allergy_flags": ["nsaid", "ibuprofen", "aspirin"]
+      },
+      {
+        "name": "Metoclopramide",
+        "generic_name": "Metoclopramide Hydrochloride",
+        "usage": "Anti-emetic for migraine-associated nausea, enhances analgesic absorption",
+        "dosage": "10mg at onset, may repeat every 8 hours",
+        "side_effects": ["Drowsiness", "Restlessness", "Dystonic reactions (rare)"],
+        "contraindications": ["GI obstruction", "Pheochromocytoma", "History of tardive dyskinesia"],
+        "drug_class": "Dopamine Antagonist / Anti-emetic",
+        "allergy_flags": ["metoclopramide"]
+      }
+    ]
+  },
+  "Hypertension": {
+    "description": "Persistently elevated blood pressure that increases risk of heart disease, stroke, and kidney damage. Often called the 'silent killer' as it may have no symptoms until organ damage occurs.",
+    "drugs": [
+      {
+        "name": "Amlodipine",
+        "generic_name": "Amlodipine Besylate",
+        "usage": "First-line calcium channel blocker for blood pressure control",
+        "dosage": "5mg once daily, may increase to 10mg",
+        "side_effects": ["Peripheral edema", "Dizziness", "Flushing", "Fatigue", "Headache"],
+        "contraindications": ["Severe aortic stenosis", "Cardiogenic shock", "Known hypersensitivity"],
+        "drug_class": "Calcium Channel Blocker (Dihydropyridine)",
+        "allergy_flags": ["amlodipine"]
+      },
+      {
+        "name": "Losartan",
+        "generic_name": "Losartan Potassium",
+        "usage": "Angiotensin II receptor blocker for blood pressure management",
+        "dosage": "50mg once daily, may increase to 100mg",
+        "side_effects": ["Dizziness", "Hyperkalemia", "Fatigue", "Back pain"],
+        "contraindications": ["Pregnancy", "Bilateral renal artery stenosis", "Hyperkalemia"],
+        "drug_class": "Angiotensin II Receptor Blocker (ARB)",
+        "allergy_flags": ["losartan", "arb"]
+      },
+      {
+        "name": "Hydrochlorothiazide",
+        "generic_name": "HCTZ",
+        "usage": "Thiazide diuretic to reduce blood volume and blood pressure",
+        "dosage": "12.5-25mg once daily",
+        "side_effects": ["Frequent urination", "Hypokalemia", "Dizziness", "Muscle cramps"],
+        "contraindications": ["Anuria", "Severe renal impairment", "Sulfa allergy"],
+        "drug_class": "Thiazide Diuretic",
+        "allergy_flags": ["sulfa", "sulfonamide", "hydrochlorothiazide"]
+      }
+    ]
+  },
+  "Diabetes": {
+    "description": "A metabolic disorder characterized by elevated blood sugar levels due to insulin resistance or deficiency. Type 2 is the most common form, often associated with lifestyle factors.",
+    "drugs": [
+      {
+        "name": "Metformin",
+        "generic_name": "Metformin Hydrochloride",
+        "usage": "First-line medication for Type 2 diabetes, improves insulin sensitivity",
+        "dosage": "500mg twice daily with meals, titrate to max 2000mg/day",
+        "side_effects": ["Nausea", "Diarrhea", "Abdominal discomfort", "Metallic taste", "Vitamin B12 deficiency (long-term)"],
+        "contraindications": ["Severe renal impairment (eGFR < 30)", "Metabolic acidosis", "Before iodinated contrast procedures"],
+        "drug_class": "Biguanide",
+        "allergy_flags": ["metformin"]
+      },
+      {
+        "name": "Glimepiride",
+        "generic_name": "Glimepiride",
+        "usage": "Stimulates insulin secretion from pancreatic beta cells",
+        "dosage": "1-2mg once daily with breakfast, max 8mg",
+        "side_effects": ["Hypoglycemia", "Weight gain", "Nausea", "Skin rash"],
+        "contraindications": ["Type 1 diabetes", "Diabetic ketoacidosis", "Severe hepatic/renal impairment"],
+        "drug_class": "Sulfonylurea",
+        "allergy_flags": ["sulfonylurea", "glimepiride", "sulfa"]
+      },
+      {
+        "name": "Sitagliptin",
+        "generic_name": "Sitagliptin Phosphate",
+        "usage": "DPP-4 inhibitor that increases incretin hormone levels",
+        "dosage": "100mg once daily",
+        "side_effects": ["Nasopharyngitis", "Headache", "Hypoglycemia (with combination)", "Pancreatitis (rare)"],
+        "contraindications": ["History of pancreatitis", "Severe renal impairment (dose adjustment needed)"],
+        "drug_class": "DPP-4 Inhibitor",
+        "allergy_flags": ["sitagliptin"]
+      }
+    ]
+  },
+  "Anemia": {
+    "description": "A condition where the blood lacks adequate healthy red blood cells or hemoglobin, leading to reduced oxygen delivery to tissues. Causes fatigue, pallor, and shortness of breath.",
+    "drugs": [
+      {
+        "name": "Ferrous Sulfate",
+        "generic_name": "Ferrous Sulfate",
+        "usage": "Iron supplement to treat iron-deficiency anemia",
+        "dosage": "325mg (65mg elemental iron) 1-3 times daily",
+        "side_effects": ["Constipation", "Dark stools", "Nausea", "Stomach upset"],
+        "contraindications": ["Hemochromatosis", "Hemosiderosis", "Iron overload conditions"],
+        "drug_class": "Iron Supplement",
+        "allergy_flags": []
+      },
+      {
+        "name": "Vitamin B12",
+        "generic_name": "Cyanocobalamin",
+        "usage": "Treats megaloblastic anemia caused by B12 deficiency",
+        "dosage": "1000mcg daily orally or 1000mcg injection monthly",
+        "side_effects": ["Diarrhea", "Itching", "Skin rash (rare)"],
+        "contraindications": ["Early Leber disease (optic nerve atrophy)"],
+        "drug_class": "Vitamin Supplement",
+        "allergy_flags": []
+      },
+      {
+        "name": "Folic Acid",
+        "generic_name": "Folic Acid",
+        "usage": "Treats folate-deficiency anemia and supports red blood cell production",
+        "dosage": "5mg once daily for 4 months (therapeutic dose)",
+        "side_effects": ["Nausea", "Bloating", "Gas", "Bitter taste"],
+        "contraindications": ["Pernicious anemia (without B12, can mask neurological damage)"],
+        "drug_class": "Vitamin Supplement",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Allergic Rhinitis": {
+    "description": "An allergic response causing inflammation of the nasal passages, triggered by allergens such as pollen, dust mites, or pet dander. Causes sneezing, congestion, and itchy eyes.",
+    "drugs": [
+      {
+        "name": "Fluticasone Nasal Spray",
+        "generic_name": "Fluticasone Propionate",
+        "usage": "Topical corticosteroid for nasal inflammation and congestion",
+        "dosage": "2 sprays per nostril once daily",
+        "side_effects": ["Nasal dryness", "Epistaxis (nosebleeds)", "Headache", "Throat irritation"],
+        "contraindications": ["Recent nasal surgery or trauma", "Active nasal infection"],
+        "drug_class": "Intranasal Corticosteroid",
+        "allergy_flags": ["corticosteroid", "fluticasone"]
+      },
+      {
+        "name": "Cetirizine",
+        "generic_name": "Cetirizine Hydrochloride",
+        "usage": "Second-generation antihistamine for sneezing, itching, and runny nose",
+        "dosage": "10mg once daily",
+        "side_effects": ["Mild drowsiness", "Dry mouth", "Headache"],
+        "contraindications": ["Severe renal impairment (dose adjustment)"],
+        "drug_class": "Second-generation Antihistamine",
+        "allergy_flags": []
+      },
+      {
+        "name": "Montelukast",
+        "generic_name": "Montelukast Sodium",
+        "usage": "Leukotriene receptor antagonist for allergy symptoms",
+        "dosage": "10mg once daily in the evening",
+        "side_effects": ["Headache", "Abdominal pain", "Behavioral changes (rare)", "Sleep disturbances"],
+        "contraindications": ["Known hypersensitivity", "Phenylketonuria (chewable tablets)"],
+        "drug_class": "Leukotriene Receptor Antagonist",
+        "allergy_flags": ["montelukast"]
+      }
+    ]
+  },
+  "Sinusitis": {
+    "description": "Inflammation or infection of the paranasal sinuses, causing facial pain, nasal congestion, and discharge. Can be acute (viral/bacterial) or chronic.",
+    "drugs": [
+      {
+        "name": "Amoxicillin",
+        "generic_name": "Amoxicillin",
+        "usage": "First-line antibiotic for bacterial sinusitis (if symptoms persist > 10 days)",
+        "dosage": "500mg three times daily for 10 days",
+        "side_effects": ["Diarrhea", "Nausea", "Skin rash", "Yeast infection"],
+        "contraindications": ["Penicillin allergy", "Infectious mononucleosis"],
+        "drug_class": "Beta-lactam Antibiotic",
+        "allergy_flags": ["penicillin", "amoxicillin", "beta-lactam"]
+      },
+      {
+        "name": "Pseudoephedrine",
+        "generic_name": "Pseudoephedrine Hydrochloride",
+        "usage": "Oral decongestant to relieve nasal and sinus congestion",
+        "dosage": "60mg every 4-6 hours, max 240mg per day",
+        "side_effects": ["Insomnia", "Restlessness", "Increased heart rate", "Dry mouth"],
+        "contraindications": ["Uncontrolled hypertension", "Severe coronary artery disease", "MAOI use"],
+        "drug_class": "Sympathomimetic Decongestant",
+        "allergy_flags": []
+      },
+      {
+        "name": "Fluticasone Nasal Spray",
+        "generic_name": "Fluticasone Propionate",
+        "usage": "Reduces sinus and nasal inflammation",
+        "dosage": "2 sprays per nostril once daily",
+        "side_effects": ["Nasal dryness", "Nosebleeds", "Headache"],
+        "contraindications": ["Recent nasal surgery", "Active nasal infection"],
+        "drug_class": "Intranasal Corticosteroid",
+        "allergy_flags": ["corticosteroid", "fluticasone"]
+      }
+    ]
+  },
+  "Conjunctivitis": {
+    "description": "Inflammation of the conjunctiva (clear membrane lining the eyelid and eye), commonly called 'pink eye'. Can be viral, bacterial, or allergic in origin.",
+    "drugs": [
+      {
+        "name": "Chloramphenicol Eye Drops",
+        "generic_name": "Chloramphenicol",
+        "usage": "Broad-spectrum antibiotic for bacterial conjunctivitis",
+        "dosage": "1-2 drops every 2-4 hours for 5 days",
+        "side_effects": ["Temporary stinging", "Local irritation", "Bone marrow suppression (extremely rare)"],
+        "contraindications": ["Known hypersensitivity", "History of blood dyscrasias with chloramphenicol"],
+        "drug_class": "Topical Antibiotic",
+        "allergy_flags": ["chloramphenicol"]
+      },
+      {
+        "name": "Olopatadine Eye Drops",
+        "generic_name": "Olopatadine Hydrochloride",
+        "usage": "Antihistamine and mast cell stabilizer for allergic conjunctivitis",
+        "dosage": "1 drop twice daily",
+        "side_effects": ["Burning sensation", "Bitter taste", "Headache", "Dry eyes"],
+        "contraindications": ["Known hypersensitivity to olopatadine"],
+        "drug_class": "Antihistamine / Mast Cell Stabilizer",
+        "allergy_flags": ["olopatadine"]
+      },
+      {
+        "name": "Artificial Tears",
+        "generic_name": "Carboxymethylcellulose",
+        "usage": "Lubricates and soothes the eye surface",
+        "dosage": "1-2 drops as needed throughout the day",
+        "side_effects": ["Temporary blurred vision", "Mild irritation"],
+        "contraindications": ["Known hypersensitivity to any ingredient"],
+        "drug_class": "Ocular Lubricant",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Appendicitis": {
+    "description": "Inflammation of the appendix, typically requiring emergency surgical intervention. Presents with periumbilical pain migrating to the right lower quadrant, nausea, and fever.",
+    "drugs": [
+      {
+        "name": "Ceftriaxone",
+        "generic_name": "Ceftriaxone Sodium",
+        "usage": "IV antibiotic for pre-operative coverage (hospital setting)",
+        "dosage": "1-2g IV once daily",
+        "side_effects": ["Diarrhea", "Nausea", "Elevated liver enzymes", "Skin rash"],
+        "contraindications": ["Penicillin/cephalosporin allergy", "Neonates with hyperbilirubinemia"],
+        "drug_class": "Third-generation Cephalosporin",
+        "allergy_flags": ["penicillin", "cephalosporin", "ceftriaxone", "beta-lactam"]
+      },
+      {
+        "name": "Metronidazole",
+        "generic_name": "Metronidazole",
+        "usage": "Covers anaerobic bacteria in abdominal infections (hospital setting)",
+        "dosage": "500mg IV every 8 hours",
+        "side_effects": ["Nausea", "Metallic taste", "Disulfiram-like reaction with alcohol", "Dark urine"],
+        "contraindications": ["First trimester pregnancy", "Known hypersensitivity", "Active alcohol use"],
+        "drug_class": "Nitroimidazole Antibiotic",
+        "allergy_flags": ["metronidazole"]
+      },
+      {
+        "name": "Paracetamol",
+        "generic_name": "Acetaminophen",
+        "usage": "Pain and fever management while awaiting surgery",
+        "dosage": "1000mg every 6 hours IV or oral",
+        "side_effects": ["Nausea", "Liver toxicity (overdose)"],
+        "contraindications": ["Severe hepatic impairment"],
+        "drug_class": "Analgesic / Antipyretic",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Kidney Stones": {
+    "description": "Hard deposits of minerals and salts that form inside the kidneys. Can cause severe flank pain, blood in urine, and urinary symptoms as stones pass through the urinary tract.",
+    "drugs": [
+      {
+        "name": "Tamsulosin",
+        "generic_name": "Tamsulosin Hydrochloride",
+        "usage": "Alpha-blocker that relaxes ureteral muscles to facilitate stone passage",
+        "dosage": "0.4mg once daily",
+        "side_effects": ["Dizziness", "Headache", "Abnormal ejaculation", "Postural hypotension"],
+        "contraindications": ["Severe hepatic impairment", "Orthostatic hypotension", "Cataract surgery (intraoperative floppy iris syndrome)"],
+        "drug_class": "Alpha-1 Adrenergic Blocker",
+        "allergy_flags": ["tamsulosin"]
+      },
+      {
+        "name": "Diclofenac",
+        "generic_name": "Diclofenac Sodium",
+        "usage": "Potent NSAID for renal colic pain relief",
+        "dosage": "50-75mg every 8 hours as needed, max 150mg per day",
+        "side_effects": ["Stomach pain", "Nausea", "Dizziness", "GI bleeding", "Renal impairment"],
+        "contraindications": ["Active GI bleeding", "Severe heart failure", "Severe renal impairment", "Third trimester pregnancy"],
+        "drug_class": "NSAID",
+        "allergy_flags": ["nsaid", "diclofenac", "aspirin", "ibuprofen"]
+      },
+      {
+        "name": "Potassium Citrate",
+        "generic_name": "Potassium Citrate",
+        "usage": "Alkalinizes urine to prevent certain types of stone recurrence",
+        "dosage": "10-20mEq three times daily with meals",
+        "side_effects": ["Nausea", "Abdominal discomfort", "Hyperkalemia"],
+        "contraindications": ["Severe renal impairment", "Hyperkalemia", "Active urinary tract infection"],
+        "drug_class": "Urinary Alkalinizing Agent",
+        "allergy_flags": []
+      }
+    ]
+  },
+  "Asthma": {
+    "description": "A chronic respiratory condition characterized by airway inflammation and hyperresponsiveness, causing recurrent episodes of wheezing, breathlessness, and cough.",
+    "drugs": [
+      {
+        "name": "Salbutamol Inhaler",
+        "generic_name": "Albuterol",
+        "usage": "Quick-relief bronchodilator for acute symptom relief",
+        "dosage": "2 puffs every 4-6 hours as needed, or via nebulizer 2.5-5mg",
+        "side_effects": ["Tremor", "Palpitations", "Headache", "Tachycardia", "Muscle cramps"],
+        "contraindications": ["Known hypersensitivity to salbutamol"],
+        "drug_class": "Short-acting Beta-2 Agonist (SABA)",
+        "allergy_flags": ["salbutamol", "albuterol"]
+      },
+      {
+        "name": "Fluticasone Propionate Inhaler",
+        "generic_name": "Fluticasone",
+        "usage": "Inhaled corticosteroid for long-term asthma control",
+        "dosage": "88-440mcg twice daily (dose varies by severity)",
+        "side_effects": ["Oral candidiasis (thrush)", "Hoarseness", "Cough", "Sore throat"],
+        "contraindications": ["Status asthmaticus (as sole therapy)", "Known hypersensitivity"],
+        "drug_class": "Inhaled Corticosteroid (ICS)",
+        "allergy_flags": ["corticosteroid", "fluticasone"]
+      },
+      {
+        "name": "Montelukast",
+        "generic_name": "Montelukast Sodium",
+        "usage": "Add-on therapy for asthma control, especially allergic asthma",
+        "dosage": "10mg once daily in the evening",
+        "side_effects": ["Headache", "Abdominal pain", "Behavioral changes (rare)", "Sleep disturbances"],
+        "contraindications": ["Known hypersensitivity", "Phenylketonuria (chewable tablets)"],
+        "drug_class": "Leukotriene Receptor Antagonist",
+        "allergy_flags": ["montelukast"]
+      }
+    ]
+  },
+  "Depression": {
+    "description": "A mood disorder causing persistent feelings of sadness, hopelessness, and loss of interest. Affects daily functioning and may involve physical symptoms like fatigue and sleep disturbance.",
+    "drugs": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline Hydrochloride",
+        "usage": "First-line SSRI for major depressive disorder",
+        "dosage": "50mg once daily, may titrate to 200mg",
+        "side_effects": ["Nausea", "Insomnia", "Diarrhea", "Sexual dysfunction", "Headache"],
+        "contraindications": ["Concurrent MAOI use", "Known hypersensitivity", "Pimozide co-administration"],
+        "drug_class": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+        "allergy_flags": ["ssri", "sertraline"]
+      },
+      {
+        "name": "Escitalopram",
+        "generic_name": "Escitalopram Oxalate",
+        "usage": "SSRI with favorable side-effect profile for depression",
+        "dosage": "10mg once daily, may increase to 20mg",
+        "side_effects": ["Nausea", "Fatigue", "Sexual dysfunction", "Insomnia", "Dry mouth"],
+        "contraindications": ["Concurrent MAOI use", "QT prolongation risk", "Known hypersensitivity"],
+        "drug_class": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+        "allergy_flags": ["ssri", "escitalopram"]
+      },
+      {
+        "name": "Mirtazapine",
+        "generic_name": "Mirtazapine",
+        "usage": "Atypical antidepressant, especially useful when insomnia and poor appetite are prominent",
+        "dosage": "15-30mg once daily at bedtime",
+        "side_effects": ["Sedation", "Increased appetite", "Weight gain", "Dry mouth", "Dizziness"],
+        "contraindications": ["Concurrent MAOI use", "Known hypersensitivity"],
+        "drug_class": "Noradrenergic and Specific Serotonergic Antidepressant (NaSSA)",
+        "allergy_flags": ["mirtazapine"]
+      }
+    ]
+  },
+  "Anxiety Disorder": {
+    "description": "A mental health condition characterized by excessive worry, nervousness, and physical symptoms like rapid heartbeat, sweating, and tremor. Can significantly impair daily functioning.",
+    "drugs": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline Hydrochloride",
+        "usage": "First-line SSRI for generalized anxiety disorder",
+        "dosage": "25mg once daily initially, titrate to 50-200mg",
+        "side_effects": ["Nausea", "Insomnia", "Diarrhea", "Dizziness", "Sexual dysfunction"],
+        "contraindications": ["Concurrent MAOI use", "Known hypersensitivity"],
+        "drug_class": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+        "allergy_flags": ["ssri", "sertraline"]
+      },
+      {
+        "name": "Buspirone",
+        "generic_name": "Buspirone Hydrochloride",
+        "usage": "Non-benzodiazepine anxiolytic for chronic anxiety",
+        "dosage": "5mg two to three times daily, titrate to 15-30mg/day in divided doses",
+        "side_effects": ["Dizziness", "Nausea", "Headache", "Nervousness", "Lightheadedness"],
+        "contraindications": ["Concurrent MAOI use", "Severe hepatic/renal impairment"],
+        "drug_class": "Serotonin 5-HT1A Partial Agonist",
+        "allergy_flags": ["buspirone"]
+      },
+      {
+        "name": "Propranolol",
+        "generic_name": "Propranolol Hydrochloride",
+        "usage": "Beta-blocker for physical symptoms of anxiety (rapid heartbeat, tremor)",
+        "dosage": "10-40mg as needed for situational anxiety, or 20-80mg/day for chronic use",
+        "side_effects": ["Fatigue", "Dizziness", "Bradycardia", "Cold extremities", "Bronchospasm"],
+        "contraindications": ["Asthma", "Severe bradycardia", "Heart block", "Cardiogenic shock"],
+        "drug_class": "Non-selective Beta Blocker",
+        "allergy_flags": ["propranolol", "beta-blocker"]
+      }
+    ]
+  },
+  "Chickenpox": {
+    "description": "A highly contagious viral infection caused by varicella-zoster virus, characterized by an itchy rash with fluid-filled blisters, fever, and fatigue. Most common in children.",
+    "drugs": [
+      {
+        "name": "Calamine Lotion",
+        "generic_name": "Calamine",
+        "usage": "Topical anti-itch treatment for rash and blisters",
+        "dosage": "Apply to affected areas as needed",
+        "side_effects": ["Skin dryness", "Local irritation (rare)"],
+        "contraindications": ["Known hypersensitivity"],
+        "drug_class": "Topical Anti-pruritic",
+        "allergy_flags": []
+      },
+      {
+        "name": "Chlorpheniramine",
+        "generic_name": "Chlorpheniramine Maleate",
+        "usage": "First-generation antihistamine to reduce itching and aid sleep",
+        "dosage": "4mg every 4-6 hours, max 24mg per day",
+        "side_effects": ["Drowsiness", "Dry mouth", "Blurred vision", "Urinary retention"],
+        "contraindications": ["Narrow-angle glaucoma", "Urinary retention", "MAOI use"],
+        "drug_class": "First-generation Antihistamine",
+        "allergy_flags": ["antihistamine", "chlorpheniramine"]
+      },
+      {
+        "name": "Paracetamol",
+        "generic_name": "Acetaminophen",
+        "usage": "Fever and pain relief (AVOID ibuprofen/aspirin due to Reye syndrome risk)",
+        "dosage": "500mg every 4-6 hours, max 2000mg per day (children: dose by weight)",
+        "side_effects": ["Nausea", "Liver toxicity (overdose)"],
+        "contraindications": ["Severe hepatic impairment"],
+        "drug_class": "Analgesic / Antipyretic",
+        "allergy_flags": []
+      }
+    ]
+  }
+}
